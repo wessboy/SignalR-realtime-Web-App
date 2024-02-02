@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>aspnet-SignalR_realtime_Web_App-4ba20762-424c-4b36-98f0-5f84b048b500</UserSecretsId>
+    <RootNamespace>SignalR_realtime_Web_App</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="7.0.14" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.14" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="7.0.14" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.14" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.14" />
+  </ItemGroup>
+
+</Project>
